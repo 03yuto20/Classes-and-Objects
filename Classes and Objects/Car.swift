@@ -29,6 +29,10 @@ class Car {
         color = customerChosenColor
     }
     
+    func drive() {
+        print("cai is moving")
+    }
+    
     
 }
 
