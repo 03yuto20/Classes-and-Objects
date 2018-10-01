@@ -10,9 +10,12 @@ import Foundation
 
 let myCar = Car()
 
+let someRichGuysCar = Car(customerChosenColor: "Gold")
+
 print(myCar.color)
 print(myCar.numberOfSeats)
 print(myCar.typeOfCar)
 
-myCar.color = "Red"
-print(myCar.color)
+print(someRichGuysCar.color)
+print(someRichGuysCar.numberOfSeats)
+print(someRichGuysCar.typeOfCar)
